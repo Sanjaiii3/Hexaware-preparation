@@ -9,7 +9,7 @@ public class unique_num_sum {
   int arr1[]={9, -4, 3, 2, -5};
   int arr2[]={2, -5, 7, 9};
   HashMap<Integer,Integer> map1=new HashMap<>();
-  HashMap<Integer,Integer> map2=new HashMap<>();
+  
   for(int i=0;i<n;i++){
       map1.put(arr1[i],map1.getOrDefault(arr1[i],0)+1);
   }
